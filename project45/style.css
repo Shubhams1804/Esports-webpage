@@ -1,0 +1,251 @@
+body{
+  font-family:"Open Sans", "Helvetica", "Arial", "sans-serif";
+  overflow-x:hidden;
+}
+#first{
+  height: 1024px;
+  background:url(https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#fifth{
+  background:background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ Padding-bottom:5%;
+ height:100%;
+ margin-top: 5vw;
+}
+#header {
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+
+    /*Opacity end*/
+    color: white;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    z-index:1;
+}
+.active{
+      background-color: rgba(0, 0, 0,0.6);
+  transition: all 1s ease-out;
+}
+
+/* WORDINGS */
+
+.tagline{
+  font-size: 1.78571429em; 
+  color: white;
+  text-align:center;
+  margin-top:30vh;
+  font-weight:600;
+  letter-spacing: 1px;
+}
+
+.title{
+    color: white;
+    text-align:center;
+    font-size: 90px;
+    font-weight:900;
+    margin-bottom: 0.48787878787879em;
+    letter-spacing: 1px;
+}
+.heading{
+   color: black;
+   font-size: 70px;
+   font-weight:900;
+   margin-bottom: 0.38787878787879em;
+   letter-spacing: 2px;
+
+    
+ 
+}
+
+.under-title{
+    color: white;
+    text-align:center;
+    font-size:20px;
+    font-weight:100;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+.btn-gettoken{
+  
+      text-align : center;
+      width : 250px;
+     border-radius: 5px;
+     background:white;
+/*   border-color:#ebebeb; */
+    color:#4c5667;
+    font-size: 16px;
+    height: 62px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    padding: 0 30px;
+    font-weight:700;
+}
+
+.center-block{
+  display:block;
+  margin-top: 0px auto;
+}
+
+
+
+.btn-gettoken:hover{
+  background:#1abc9c;
+  color:black;
+  transition: all 0.4s;
+}
+
+
+.paragraph{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+}
+.content{
+
+}
+.btn-learn-about{
+  margin-top:5px;
+  border-radius: 5px;
+  background:#1abc9c;
+  color:white;
+  letter-spacing: 2px;
+  line-height: 60px;
+  padding: 0 30px;
+  font-weight:700;
+}
+.btn-learn-about:hover{
+  background:orange;
+  transition: all 0.4s;
+  color:white;
+}
+.second{
+  margin-top:25vh;
+  float:right;
+  margin-right:1px;
+}
+
+.third{
+  margin-top:25vh;
+  float:right;
+  margin-left:2vw;
+}
+.fourth{
+  margin-top:25vh;
+ float:right;
+  margin-right:2vw;
+}
+
+#img-inter{
+  margin-right : -5vh;
+}
+.menu{
+  font-size:15px;
+  text-align:right;
+  margin-right:30px;
+}
+
+.nav{
+  display:inline-block;
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:10px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-weight:700;
+   color:white;
+}
+.nav-line{
+ display:inline-block;
+  line-height: 10%;
+  padding:0.25%;
+  letter-spacing: 1px;
+  font-weight:600;
+  color:#1bbc9b;
+}
+.nav:hover{
+  color:orange;
+}
+
+.follow{
+  margin-top:5vh;
+  text-align:center;
+  font-size:40px;
+}
+.icons{
+  font-size:50px;
+}
+
+.content-heading{
+  font-size:30px;
+  text-align:center;
+  font-weight:bold;
+  letter-spacing: 2px;
+  line-height: 60px;
+  padding: 0 30px;
+  font-weight:700;
+}
+
+.content-text{
+  margin-top:20px;
+  font-size:20px;
+  text-align:center;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 0 30px;
+  font-weight:400;
+}
+
+.extra-1,.extra-2,.extra-3{
+  display:inline-block;
+  margin-top:10vh;
+  width: 33%;
+  position:float;
+  float:left;
+  vertical-align: top;
+
+}
+.box{
+    border: 1px solid #666666;
+  border-radius: 6px;
+}
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top :10%;
+    width : 100%
+}
+
+
+
+.extra-1:hover,.extra-2:hover,.extra-3:hover{
+  
+  padding: 10px;
+  border-radius: 10px;
+ 
+  
+}
+
+
+  
+  
+  
+  
+}
